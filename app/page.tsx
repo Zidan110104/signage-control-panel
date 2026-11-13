@@ -984,7 +984,7 @@ export default function Home() {
                 "repeat(auto-fit, minmax(220px, 1fr))",
               gap: 16,
               padding: "0 24px 24px",
-              alignItems: "end",
+              alignItems: "Start",
             }}
           >
             <div>
@@ -1078,7 +1078,7 @@ export default function Home() {
               </select>
             </div>
 
-            <div>
+            <div style={{ alignSelf: "end" }}>
               <button
                 type="button"
                 className="primary-button"
